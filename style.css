@@ -1,0 +1,529 @@
+/*VERSÃO MOBILE*/
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+
+header {
+    background-color: #17266C;
+
+    height: 10vh;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+figcaption {
+    display: none;
+}
+
+header #logo {
+    width: 30vw;
+    padding-top: 12px;
+}
+
+#lupa {
+    width: 35%;
+    background-color: white;
+    border-radius: 30px;
+    height: 20px;
+    display: flex;
+    align-items: end;
+    padding-left: 5px;
+}
+
+
+.icon-header {
+    width: 20px;
+    height: 20px;
+}
+
+#div-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+#svg-lupa {
+    width: 12px;
+
+}
+
+#icon-menu {
+    display: none;
+}
+
+
+.menu-overlay,
+#menu-toggle {
+    display: none;
+}
+
+/*MAIN*/
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+#p-chaveirices {
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+#avaliacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+#nome-produto-desktop {
+    display: none;
+}
+
+
+#avaliacao span {
+    font-size: 0.5rem;
+    padding: 1vw;
+    font-weight: 500;
+    color: gray;
+    border: solid 0.5px gray;
+    border-radius: 5px;
+    margin-left: 6px;
+}
+
+#chaveiros-img figure img {
+    width: 90%;
+}
+
+#chaveiros-img {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 12px;
+    gap: 10px;
+}
+
+#chaveiros-img div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#chaveiros-img-tablet {
+    display: none;
+}
+
+
+#preco button {
+    width: 100%;
+    background-color: #17266C;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 2.5vw;
+    font-weight: 600;
+}
+
+#preco {
+    width: 90%;
+}
+
+#preco p {
+    font-size: 1.5rem;
+}
+
+#descricao ul li {
+    font-weight: 700;
+}
+
+#descricao {
+    margin-top: 20px;
+    font-size: 0.6rem;
+    width: 100%;
+}
+
+#coluna {
+    width: 80%;
+}
+
+/*FOOTER*/
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #17266C;
+    color: white;
+    font-size: 0.8rem;
+    width: 100%;
+
+}
+
+footer p {
+    font-size: 0.5rem;
+}
+
+footer nav a figure img {
+    width: 20px;
+    height: 20px;
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+
+
+#cartoes {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*VERSÃO TABLET*/
+
+@media (min-width: 768px) {
+
+    .menu-overlay,
+    .menu-toggle {
+        display: none;
+    }
+
+
+    main {
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #nome-produto {
+        display: none;
+    }
+
+
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    #preco p {
+        font-size: 1rem;
+    }
+
+    #avaliacao {
+        width: 50%;
+    }
+
+    #nome-produto-desktop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #icon-menu {
+        display: none;
+    }
+
+    .star {
+        height: 22px;
+        width: 22px;
+        border-radius: 2px;
+    }
+
+    #descricao {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+    footer h3 {
+        font-size: 1.4rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+    }
+
+    #valor {
+        font-size: 2rem;
+    }
+
+    footer nav a figure img {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer nav {
+        width: 30%;
+    }
+
+    #coluna {
+        width: 40%;
+    }
+
+    footer {
+        margin-top: 5vh;
+        display: flex;
+        align-items: center;
+    }
+
+    #lupa {
+        height: 40px;
+    }
+
+    #svg-lupa {
+        width: 30px;
+    }
+
+    .icon-header {
+        width: 30px;
+        height: 30px;
+    }
+
+    header #logo {
+        padding-top: 20px;
+    }
+
+    #cartoes {
+        width: 20vw;
+        display: flex;
+
+    }
+
+    #chaveiros-img {
+        display: none;
+    }
+
+    #chaveiros-img-tablet {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 4px;
+    }
+
+    #chaveiros-img-tablet figure img {
+        width: 27vw;
+        height: 24vh;
+
+    }
+
+    #chaveiros-img-tablet div {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*VERSÃO DESKTOP*/
+
+@media (min-width: 1025px) {
+
+
+    #chaveiros-img-tablet {
+        display: none;
+    }
+
+    #chaveiros-img {
+        display: flex;
+    }
+
+    #chaveiros-img figure img {
+        width: 17vw;
+        height: 40vh;
+
+    }
+
+
+    header {
+        height: auto;
+    }
+
+    main {
+        justify-content: space-around;
+    }
+
+    #coluna {
+        width: 40%;
+        margin-left: 60px;
+    }
+
+    #avaliacao span {
+        padding: 0.4vw;
+
+    }
+
+    #chaveiros-img div {
+        gap: 12px;
+    }
+
+    #div-icon {
+        gap: 20px;
+    }
+
+    #avaliacao {
+        width: 30%;
+    }
+
+    #preco button {
+        padding: 1.5vw;
+
+    }
+
+    footer nav {
+        width: 15%;
+    }
+
+    header #logo {
+        width: 20vw;
+    }
+
+    #icon-menu {
+        display: flex;
+    }
+
+
+    #menu-toggle {
+        display: none;
+    }
+
+    .menu-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        display: none;
+        justify-content: flex-start;
+        align-items: flex-start;
+        z-index: 2;
+    }
+
+    .menu-content {
+        width: 100%;
+        background: #394b9a;
+        padding: 30px;
+        border-radius: 0px 0px 20px 20px;
+        text-align: center;
+    }
+
+    .close-button {
+        font-size: 30px;
+        cursor: pointer;
+        display: block;
+        text-align: right;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    #menu-toggle:checked~.menu-overlay {
+        display: flex;
+    }
+
+    .menu-content ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2vw;
+    }
+
+    .menu-content li {
+        margin: 20px 0;
+        width: 20%;
+        padding: 2vh;
+        border-radius: 40px;
+        color: white;
+        border: solid 1px white;
+        box-shadow: 4px 10px 15px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .menu-content a {
+        text-decoration: none;
+        color: white;
+        padding: 1vw;
+        font-size: 18px;
+        transition: color 1s;
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu-content li:hover {
+
+        transform: scale(1.2);
+    }
+
+
+
+
+
+
+
+
+
+}
